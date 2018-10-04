@@ -6,3 +6,6 @@ array.sort();
 array.push("Kiwi");
 array.shift();
 array.reverse();
+
+var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+var oranges = array2[1][1][0]
